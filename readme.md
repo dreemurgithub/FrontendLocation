@@ -32,3 +32,21 @@
   - Ổn => Tiếp tục học
   - Khá => Qua lớp sau đúng thời gian(12b khá liên tục - Làm đúng 80% đáp án đúng giờ hoặc 100% hơi chậm)
   - Giỏi => Qua lớp nhanh(6 giỏi liên tục - Làm đúng 95% nhanh)
+- We need to split csv into 6 level
+  - 800 and Less: Level 1 - Very weak
+  - 700 - 1100: Level 2
+  - 1000 - 1400: Level 3
+  - 1300 - 1600: Level 4
+  - 1500 - 1900: Level 5
+  - 1800 - 2300: Level 6
+
+### Steps in chess schema
+
+- Deploy qua Vercel để giấu toàn bộ các React code từ Firebase, [pricing vercvel](https://vercel.com/pricing) - pretty good if just 4 react/next
+  - Must be next, React will always display static js files => our source code can be stolen
+  - Maybe next will help us to have more things? But a new rewrite would be a must!
+- Feed [Lozza](https://github.com/op12no2/lozza) or any chess engine into the current app, make sure the engine can get the fen string.
+  - [Lozza is about 2300 elo](https://chess.stackexchange.com/questions/8472/which-is-the-smallest-chess-engine-with-elo-at-least-2000)
+  - Make sure we can get the engine to display all moves, and make those move click-able to set state
+  - Change the frontend into some kind of docker/server 4 static react file, to hide all the frontend code
+- Next is to convert all csv in data into correct pgn files
