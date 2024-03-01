@@ -45,8 +45,13 @@
 - Deploy qua Vercel để giấu toàn bộ các React code từ Firebase, [pricing vercvel](https://vercel.com/pricing) - pretty good if just 4 react/next
   - Must be next, React will always display static js files => our source code can be stolen
   - Maybe next will help us to have more things? But a new rewrite would be a must!
+  - Maybe we dont really need to cut down pgn files to many weird shits to join, just use
 - Feed [Lozza](https://github.com/op12no2/lozza) or any chess engine into the current app, make sure the engine can get the fen string.
   - [Lozza is about 2300 elo](https://chess.stackexchange.com/questions/8472/which-is-the-smallest-chess-engine-with-elo-at-least-2000)
   - Make sure we can get the engine to display all moves, and make those move click-able to set state
   - Change the frontend into some kind of docker/server 4 static react file, to hide all the frontend code
 - Next is to convert all csv in data into correct pgn files
+
+### FEN to lozza
+
+- [Link to web that use a lot of example to figure out](https://github.com/op12no2/lozza-ui/blob/master/fen.js)

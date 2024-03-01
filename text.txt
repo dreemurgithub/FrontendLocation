@@ -1,0 +1,7 @@
+cho mình hỏi vài cái và xác nhận lại về bài kiểm tra
+1: thời gian làm 4 bài là 50p?
+2: Mình thấy FE sẽ làm bài trên JS, nhưng mà email cũng có nói là sẽ làm trong 6 tiếng("➤ Online Test kéo dài 50 phút trắc nghiệm và tối đa 6 tiếng cho bài code đối với Bài Test FrontEnd và 60 phút đối với Bài Test BackEnd/Unity/Embedded/Tester, được sử dụng tài liệu trong quá trình làm bài.")
+3: Mục "bài test làm được 3 lần" là như nào?
+4: Ví dụ mình làm xong và qua bài tiếp theo, có thể lùi lại để fix lại bài cũ không?
+5: Có thể "run app" để kiểm tra trước khi submit được không?
+6: Mình sẽ dùng print(...) qua "run app" để log kết quả đúng không?
